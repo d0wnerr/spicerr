@@ -5,12 +5,24 @@
 			"type": "shell",
 			"command": "npm run build; spicetify enable-devtools; spicetify apply",
 			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "test build",
+			"detail": "spicetify-creator"
+		},
+		{
+			"type": "shell",
+			"command": "npx spicetify-creator --out=dist --minify",
+			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
 			"problemMatcher": [],
-			"label": "npm: build",
+			"label": "dist build",
 			"detail": "spicetify-creator"
+
 		}
 	]
 }
