@@ -1,0 +1,11 @@
+{
+    "name": "spicerr",
+    "description": "spicetify extension for finding songsterr tabs",
+    "preview": "assets/preview.png",
+    "main": "dist/spicerr.js",
+    "readme": "README.md",
+    "authors": [
+        { "name": "d0wnerr", "url": "https://github.com/d0wnerr" }
+    ],
+    "tags": ["songsterr"]
+}
